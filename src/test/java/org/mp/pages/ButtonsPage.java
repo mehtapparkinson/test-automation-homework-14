@@ -10,7 +10,7 @@ public class ButtonsPage {
     private SelenideElement dynamicClickMessage = $x("//p[@id='dynamicClickMessage']");
 
     public void clickClickMeButton() {
-        clickMeButton.click();
+        clickMeButton.scrollTo().click();
     }
 
     public SelenideElement getDynamicClickMessage() {

@@ -101,7 +101,7 @@ public class SelenideHomeworkTest {
 
     @After
     public void tearDown() {
-        sleep(1000); 
+        sleep(1000);
         Selenide.closeWebDriver();
     }
 }
