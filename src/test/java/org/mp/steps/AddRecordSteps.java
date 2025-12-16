@@ -57,7 +57,6 @@ public class AddRecordSteps {
 
     @And("I click on Edit button for {string}")
     public void i_click_on_edit_button_for(String firstName) {
-        // Edit butonuna scroll yap
         webTablesPage.getRecordByFirstName(firstName).scrollTo();
         sleep(500);
         webTablesPage.clickEditButton(firstName);
